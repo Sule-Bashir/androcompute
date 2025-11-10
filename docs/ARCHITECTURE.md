@@ -26,3 +26,10 @@ AndroCompute is a distributed computing platform that leverages Android devices 
 5. **Aggregation**: Coordinator collects and displays results
 
 ## Data Flow
+User → Coordinator API → Job Queue → Android Workers → Results → Dashboard
+
+## Security Features
+- Code execution in isolated environment
+- Resource usage limits
+- Input validation and sanitization
+- Secure communication via HTTPS
