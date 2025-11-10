@@ -1,7 +1,13 @@
 # Installation Guide
 
 ## Coordinator Setup
-```bash
-cd coordinator
-pip install -r requirements.txt
-python server.py
+
+### Prerequisites
+- Python 3.7 or higher
+- pip package manager
+
+### Steps
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/Sule-Bashir/androcompute.git
+   cd androcompute/coordinator
